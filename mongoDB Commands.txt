@@ -1,0 +1,21 @@
+mongosh
+show dbs
+use myFirstDatabase(to create a new database)
+db(to access the database)
+
+db.products.insertOne({name : 'iphone 10' , price :1000 , category:'smartphone' , active: 'true'});  // to insert a document in a collection
+
+
+//to operate on vscode with mongoDB local server
+
+- Select Add Connection in the MongoDB view
+
+- Next, choose to connect with a connection string or use advanced connection options:
+
+- Select Connect with Connection String, and then enter the connection string in the connection string Quick Pick.
+
+- The default connetion string for a local MongoDB is mongodb://127.0.0.1:27017
+
+
+
+

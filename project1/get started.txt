@@ -1,0 +1,8 @@
+npm init -y
+npm i mongoose 
+npm i --save-dev nodemon
+go to package.json and add the following script
+"scripts": {
+    "start": "nodemon server.js"
+    "dev": "nodemon server.js"
+  },
